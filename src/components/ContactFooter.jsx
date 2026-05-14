@@ -159,11 +159,7 @@ export function Contact() {
             style={{ background: 'var(--surface)', color: 'var(--text)', borderColor: 'rgba(255,255,255,0.1)' }}>
             💬 WhatsApp
           </a>
-          <a href="https://shersial.framer.website/" target="_blank" rel="noopener noreferrer"
-            className="px-5 py-3 font-semibold no-underline rounded-xl border transition-all duration-300 hover:border-accent hover:-translate-y-1 md:px-8 md:py-4"
-            style={{ background: 'var(--surface)', color: 'var(--text)', borderColor: 'rgba(255,255,255,0.1)' }}>
-            🌐 Full Portfolio
-          </a>
+         
         </div>
 
         {/* Contact Details */}
