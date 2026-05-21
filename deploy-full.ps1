@@ -12,7 +12,11 @@ git push -u origin main   # now pushes to https://github.com/mohammeddsial/portf
 
 # 2. Build the Vite project
 npm run build
-
+# check if build is successful
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "❌ Build failed. Exiting." -ForegroundColor Red
+    exit $LASTEXITCODE
+}
 # 3. Deploy to Vercel (your site https://shersial.vercel.app)
 Write-Host "🚀 Deploying to Vercel..." -ForegroundColor Green
 npx vercel --prod --yes
