@@ -78,10 +78,10 @@ export default function Nav({ theme, toggleTheme }) {
             </li>
           ))}
           <li>
-            <a href="mailto:shersials@gmail.com" className="px-5 py-2 text-sm font-semibold no-underline rounded-full"
-              style={{ background: 'var(--accent)', color: 'var(--bg)' }}>
-              Hire Me
-            </a>
+          <a href="#contact" onClick={e => scrollTo(e, '#contact')} className="px-5 py-2 text-sm font-semibold no-underline rounded-full"
+  style={{ background: 'var(--accent)', color: 'var(--bg)' }}>
+  Hire Me
+</a>
           </li>
         </ul>
 
@@ -122,11 +122,10 @@ export default function Nav({ theme, toggleTheme }) {
             {l.label}
           </a>
         ))}
-        <a href="mailto:shersials@gmail.com"
-          className="px-5 py-2 text-sm font-semibold no-underline rounded-full"
-          style={{ background: 'var(--accent)', color: 'var(--bg)' }}>
-          Hire Me
-        </a>
+      <a href="#contact" onClick={e => scrollTo(e, '#contact')} className="px-5 py-2 text-sm font-semibold no-underline rounded-full"
+  style={{ background: 'var(--accent)', color: 'var(--bg)' }}>
+  Hire Me
+</a>
       </div>
     </>
   )

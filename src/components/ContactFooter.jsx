@@ -148,47 +148,10 @@ export function Contact() {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex flex-wrap gap-3 justify-center mb-12 md:gap-4 md:mb-16">
-          <a href="mailto:shersials@gmail.com"
-            className="px-5 py-3 font-semibold no-underline rounded-xl transition-all duration-300 hover:-translate-y-1 hover:opacity-90 md:px-8 md:py-4"
-            style={{ background: 'var(--accent)', color: 'var(--bg)' }}>
-            ✉ Email Me
-          </a>
-          <a href="https://wa.me/923364199486" target="_blank" rel="noopener noreferrer"
-            className="px-5 py-3 font-semibold no-underline rounded-xl border transition-all duration-300 hover:border-accent hover:-translate-y-1 md:px-8 md:py-4"
-            style={{ background: 'var(--surface)', color: 'var(--text)', borderColor: 'rgba(255,255,255,0.1)' }}>
-            💬 WhatsApp
-          </a>
-         
-        </div>
+
 
         {/* Contact Details */}
-        <div className="mx-auto max-w-sm text-left">
-          <h3 className="mb-4 font-serif text-xl font-normal md:text-2xl md:mb-5">Get in touch</h3>
-          <div className="space-y-3">
-            <div className="flex gap-2 items-center md:gap-3">
-              <span className="text-base md:text-lg" style={{ color: 'var(--accent)' }}>✉</span>
-              <a href="mailto:shersials@gmail.com" className="text-sm no-underline transition-colors hover:text-accent md:text-base"
-                style={{ color: 'var(--muted)' }}>shersials@gmail.com</a>
-            </div>
-            <div className="flex gap-2 items-center md:gap-3">
-              <svg className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" style={{ color: 'var(--accent)' }}>
-                <path d="M12.031 2C6.51 2 2.032 6.48 2.032 12c0 2.19.71 4.23 1.92 5.89L2 22l4.23-1.89c1.55.95 3.4 1.51 5.39 1.51 5.52 0 10-4.48 10-10s-4.48-10-10-10zm0 18c-1.79 0-3.44-.57-4.79-1.54l-.34-.2-2.51 1.12.98-2.46-.21-.34c-1.1-1.51-1.77-3.31-1.77-5.2 0-4.62 3.76-8.38 8.38-8.38s8.38 3.76 8.38 8.38-3.76 8.38-8.38 8.38z"/>
-              </svg>
-              <a href="https://wa.me/923364199486" target="_blank" rel="noopener noreferrer"
-                className="text-sm no-underline transition-colors hover:text-accent md:text-base"
-                style={{ color: 'var(--muted)' }}>
-                +92 336 4199486 (WhatsApp)
-              </a>
-            </div>
-            <div className="flex gap-2 items-center md:gap-3">
-              <svg className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" style={{ color: 'var(--accent)' }}>
-                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-              </svg>
-              <span className="text-sm md:text-base" style={{ color: 'var(--muted)' }}>Lahore, Pakistan · Available Worldwide</span>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   )
@@ -198,40 +161,7 @@ export function Footer() {
   return (
     <footer className="flex flex-col gap-4 justify-between items-center px-5 py-6 font-mono text-xs md:px-12 md:py-8 md:text-sm"
       style={{ color: 'var(--muted)', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
-      <div className="flex flex-wrap gap-4 justify-center items-center">
-        <a href="https://www.linkedin.com/in/zahidshersial/" target="_blank" rel="noopener noreferrer"
-          className="no-underline transition-colors hover:text-accent" style={{ color: 'var(--muted)' }}
-          aria-label="Zahid Sher Sial on LinkedIn">LinkedIn</a>
-        <a href="https://x.com/SherSial" target="_blank" rel="noopener noreferrer"
-          className="no-underline transition-colors hover:text-accent" style={{ color: 'var(--muted)' }}
-          aria-label="Zahid Sher Sial on X (Twitter)">X / Twitter</a>
-        <a href="https://www.facebook.com/MZahidSherSial" target="_blank" rel="noopener noreferrer"
-          className="no-underline transition-colors hover:text-accent" style={{ color: 'var(--muted)' }}
-          aria-label="Zahid Sher Sial on Facebook">Facebook</a>
-        <a href="https://dribbble.com/shersial" target="_blank" rel="noopener noreferrer"
-          className="no-underline transition-colors hover:text-accent" style={{ color: 'var(--muted)' }}
-          aria-label="Zahid Sher Sial on Dribbble">Dribbble</a>
-        <a href="https://www.behance.net/shersials" target="_blank" rel="noopener noreferrer"
-          className="no-underline transition-colors hover:text-accent" style={{ color: 'var(--muted)' }}
-          aria-label="Zahid Sher Sial on Behance">Behance</a>
-          <a href='https://contra.com/m_zahid_sher_sial/work ' target='_blank' rel='noopener noreferrer' className='no-underline transsition-colos hover:text-accent' style={{ color: 'var(--muted)' }}
-          aria-label="Zahid Sher Sial on Contra" >Contra</a>
-          <a href='https://gist.github.com/shersial ' target='_blank' rel='noopener noreferrer' className='no-underline transsition-colos hover:text-accent' style={{ color: 'var(--muted)' }}
-          aria-label="Zahid Sher Sial on Gist" >Gist</a>
-          <a href='https://www.pinterest.com/shersial/ ' target='_blank' rel='noopener noreferrer' className='no-underline transsition-colos hover:text-accent' style={{ color: 'var(--muted)' }}
-          aria-label="Zahid Sher Sial on Pintrest" >Pintrest</a>
-      </div>
-      <div className="flex flex-col gap-2 items-center md:flex-row md:justify-between md:w-full">
-        <span className="flex gap-2 items-center">
-          <img src="/logo.webp" alt="Zahid Sher Sial — UI/UX Designer & Front-End Developer" className="h-4 md:h-5" style={{ filter: ' invert(1)' }} />
-          <span>© 2025 · UI/UX Designer &amp; Developer</span>
-        </span>
-        <span>
-          Lahore, PK · Available Globally ·{' '}
-          <a href="mailto:shersials@gmail.com" className="no-underline transition-colors hover:text-accent"
-            style={{ color: 'var(--muted)' }}>shersials@gmail.com</a>
-        </span>
-      </div>
+      
     </footer>
   )
 }
